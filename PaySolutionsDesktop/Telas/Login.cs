@@ -7,7 +7,7 @@ namespace PaySolutionsDesktop
 {
     public partial class Login : Form
     {
-        Thread t1;
+        
         public Login()
         {
             InitializeComponent();
@@ -26,7 +26,7 @@ namespace PaySolutionsDesktop
             }
             else
             {
-                MessageBox.Show("Usuário ou senha estão incorretos");
+                MessageBox.Show("Usuï¿½rio ou senha estï¿½o incorretos");
             }
         }
 
